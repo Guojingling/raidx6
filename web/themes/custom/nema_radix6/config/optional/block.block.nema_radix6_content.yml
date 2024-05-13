@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nema_radix6
+id: nema_radix6_content
+theme: nema_radix6
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: "Main page content"
+  label_display: "0"
+  provider: system
+visibility: {}

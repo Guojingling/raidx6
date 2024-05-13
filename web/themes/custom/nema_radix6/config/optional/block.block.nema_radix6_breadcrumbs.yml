@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nema_radix6
+id: nema_radix6_breadcrumbs
+theme: nema_radix6
+region: header
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: "0"
+  provider: system
+visibility: {}
